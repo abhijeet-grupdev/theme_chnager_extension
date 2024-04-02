@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Theme Changer Extension",
+  "version": "1.0",
+  "permissions": ["activeTab", "tabs", "storage", "debugger", "scripting"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "index.html"
+  },
+   "icons": {
+    "512": "logo192.png"
+    
+  }
+}
